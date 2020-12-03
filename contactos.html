@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/Eunice foto.jpeg" sizes="64x64">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Eunice T.V</title>
+    <link rel="shortcut icon" href="img/danza.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style type="text/css">
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #0c2461;
+    }
+    /*Custom Scrollbar Example*/
+    /* width */
+    
+     ::-webkit-scrollbar {
+        width: 5px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: red;
+        border-radius: 10px;
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Blog Eunice T.V</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="clearfix">
+
+        </div>
+        <section id="contactos">
+            <h2>Registra tus opiniones</h2>
+            <br>
+            <p>Diganos su opinión o sugerencia y nos contactaremos con usted lo más antes posible, es un enorme placer que allá llegado hasta aquí</p>
+            <br>
+            <div class="container">
+                <form action="/action_page.php">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="fname">Nombre</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="fname" name="firstname" placeholder="Escriba Aqui Su nombre.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="lname">Apellido</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="lname" name="lastname" placeholder="Escriba Aqui su Apellido.">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="country">Ciudad</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                      <option value="Santo Domingo">Santo Domingo</option>
+                      <option value="Santiago">Santiago</option>
+                      <option value="Azua">Azua</option>
+                      <option value="Santiago">La Vega</option>
+                      <option value="Azua">San Cristobal</option>
+                      <option value="Santiago">Bavaro</option>
+                      <option value="Azua">Puerto Plata</option>
+                    </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="subject">Mensaje</label>
+                        </div>
+                        <div class="col-75">
+                            <textarea id="subject" name="subject" placeholder="Deje su Mensaje Aqui" style="height:200px"></textarea>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <input type="submit" value="Enviar">
+                    </div>
+                    <br>
+                </form>
+            </div>
+
+            <div class="clearfix">
+
+            </div>
+            <footer class="footer">
+                <div style="margin: 20px 0;">
+                    <a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube" style="font-size:48px;color:red;"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:48px;color:#45aaf2;"></i></a>
+                    <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:48px;color:blue;"></i></a>
+                </div>
+
+            </footer>
+        </section>
+    </div>
+
+</body>
+
+</html>

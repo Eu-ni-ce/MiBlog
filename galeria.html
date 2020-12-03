@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/Eunice foto.jpeg" sizes="64x64">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="JUANCITO PEÑA V">
+    <meta name="description" content="PROYECTO X">
+    <title>Blog Eunice T.V</title>
+    <link rel="shortcut icon" href="img/danza.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js-galeria.js"></script>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<style type="text/css">
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #0c2461;
+    }
+    /*Custom Scrollbar Example*/
+    /* width */
+    
+     ::-webkit-scrollbar {
+        width: 5px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: red;
+        border-radius: 10px;
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+</style>
+
+
+
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Blog Eunice T.V</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="clearfix">
+
+        </div>
+
+
+        <h2 style="text-align:center">Mis Imagenes Favoritas</h2>
+        <br>
+
+        <div class="row">
+            <div class="column">
+                <img src="img/danza1.gif" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/codigo3.gif" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/codigo1.gif" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/codigo2.gif" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/danza5.gif" style="width:100%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/divertirse.gif" style="width:100%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/minions.gif" style="width:100%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/danza2.gif" style="width:100%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/minions2.gif" style="width:100%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/danza4.gif" style="width:100%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/danza3.gif" style="width:100%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+            </div>
+            <div class="column">
+                <img src="img/codigo4.gif" style="width:100%" onclick="openModal();currentSlide(12)" class="hover-shadow cursor">
+            </div>
+        </div>
+
+        <!-- Fim Seccion de contenido de la Galeria-->
+
+        <!-- Empieza Seccion del Modal de la Galeria-->
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+
+                <div class="mySlides">
+                    <div class="numbertext">1 / 12</div>
+                    <img src="img/danza1.gif" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">2 / 12</div>
+                    <img src="img/danza2.gif" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">3 / 12</div>
+                    <img src="img/danza3.gif" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">4 / 12</div>
+                    <img src="img/danza4.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">5 / 12</div>
+                    <img src="img/danza5.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">6 / 12</div>
+                    <img src="img/divertirse.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">7 / 12</div>
+                    <img src="img/minions.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">8 / 12</div>
+                    <img src="img/minions2.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">9 / 12</div>
+                    <img src="img/codigo1.gif" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                    <div class="numbertext">10 / 12</div>
+                    <img src="img/codigo2.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">11 / 12</div>
+                    <img src="img/codigo3.gif" style="width:100%">
+                </div>
+                <div class="mySlides">
+                    <div class="numbertext">12 / 12</div>
+                    <img src="img/codigo4.gif" style="width:100%">
+                </div>
+
+
+                <a class="prev" onclick="plusSlides(-1)"> &#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- Fin Seccion del Modal de la Galeria-->
+
+
+                <!-- Empieza Seccion del Slider de Galeria-->
+
+                <div class="column">
+                    <img class="demo cursor" src="img/danza1.gif" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/danza2.gif" style="width:100%" onclick="currentSlide(2)" alt="Snow">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/danza3.gif" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/danza4.gif" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/danza5.gif" style="width:100%" onclick="currentSlide(5)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/divertirse.gif" style="width:100%" onclick="currentSlide(6)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/minions.gif" style="width:100%" onclick="currentSlide(7)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/minions2.gif" style="width:100%" onclick="currentSlide(8)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/codigo1.gif" style="width:100%" onclick="currentSlide(9)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/codigo2.gif" style="width:100%" onclick="currentSlide(10)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/codigo3.gif" style="width:100%" onclick="currentSlide(11)" alt="Northern Lights">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="img/codigo4.gif" style="width:100%" onclick="currentSlide(12)" alt="Northern Lights">
+                </div>
+            </div>
+        </div>
+        <!-- Fin Seccion del Slider de Galeria-->
+
+
+        <div class="clearfix">
+
+        </div>
+        <footer class="footer">
+            <div style="margin: 20px 0;">
+                <a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube" style="font-size:48px;color:red;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:48px;color:#45aaf2;"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:48px;color:blue;"></i></a>
+            </div>
+
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

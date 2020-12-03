@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="img/Eunice foto.jpeg" sizes="64x64">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Eunice T.V</title>
+    <link rel="shortcut icon" href="img/danza.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style type="text/css">
+    a:link,
+    a:visited,
+    a:active {
+        text-decoration: none;
+        color: #0c2461;
+    }
+    /*Custom Scrollbar Example*/
+    /* width */
+    
+     ::-webkit-scrollbar {
+        width: 5px;
+    }
+    /* Track */
+    
+     ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey;
+        border-radius: 10px;
+    }
+    /* Handle */
+    
+     ::-webkit-scrollbar-thumb {
+        background: red;
+        border-radius: 10px;
+    }
+    /* Handle on hover */
+    
+     ::-webkit-scrollbar-thumb:hover {
+        background: #b30000;
+    }
+</style>
+<style>
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    .column {
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+    
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        margin: 8px;
+    }
+    
+    img {
+        border: 2px solid #F8EFBA;
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+    }
+    
+    .mifoto {
+        filter: drop-shadow(2px 2px 3px rgb(0, 0, 0, 0.5));
+    }
+    
+    .about-section {
+        padding: 50px;
+        text-align: center;
+        background-color: #474e5d;
+        color: white;
+    }
+    
+    .contenido {
+        padding: 0 16px;
+    }
+    
+    .contenido::after,
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .title {
+        color: #182C61;
+        text-align: center;
+    }
+    
+    p {
+        color: #2C3A47;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
+    
+    .descripcion {
+        color: #2C3A47;
+        text-align: justify;
+        font-size: 30px;
+        margin: 20px;
+        padding: 25px;
+    }
+    
+    .button {
+        border: none;
+        outline: 0;
+        display: inline-block;
+        padding: 8px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+    }
+    
+    .button:hover {
+        background-color: #555;
+    }
+    
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+        .descripcion {
+            color: #2C3A47;
+            text-align: justify;
+            font-size: 20px;
+            margin: 20px;
+            padding: 25px;
+        }
+    }
+    
+    @media screen and (max-width: 350px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+        .descripcion {
+            color: #2C3A47;
+            text-align: center;
+            font-size: 20px;
+            margin: 20px;
+            padding: 25px;
+        }
+    }
+</style>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Blog Eunice T.V</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobremi.html">Sobre Mi</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+            </ul>
+        </nav>
+
+        <div class="clearfix">
+
+        </div>
+
+        <h2 style="text-align:center">Quien Soy</h2>
+        <br>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img class="mifoto" src="img/Eunice foto.jpeg" alt="Juancito" style="width:100%">
+                    <div class="contenido">
+                        <br>
+                        <h2>Eunice Toribio V.</h2>
+
+                        <p class="title">Estudiante Universaria en la carrera de Ingeniería en Sistemas y Computación </p>
+                        <p>Diplomado en HTML5, CSS, Javascript.</p>
+                        <p>eunicetoribiov@gmail.com</p>
+                        <p><button class="button">Contacto</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+
+                <p class="descripcion">
+                    <strong>Formación Escolar</strong> Inicié mis estudios en la Escuela Básica Haras Nacionales, mi estudio del bachicher en el liceo Vespertino Profesor Juan Emilio Bosch y Gaviño, luego el Técnico en Informática en Liceo Matutino Manuel
+                    Aurelio Tavarez Justo, realice algunos estudios como emprendedor por Pymes en Infotep.
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <div class="clearfix">
+
+        </div>
+        <footer class="footer">
+            <div style="margin: 24px 0;">
+                <a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube" style="font-size:48px;color:red;"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:48px;color:#45aaf2;"></i></a>
+                <a href="https://facebook.com/" target="_blank"><i class="fa fa-facebook" style="font-size:48px;color:blue;"></i></a>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>
